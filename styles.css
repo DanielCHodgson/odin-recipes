@@ -1,0 +1,47 @@
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 80%;
+    height: auto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+li {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    padding-top: 12px;
+}
+
+ol li {
+    padding-top: 24px;
+}
+
+img.feature_img {
+    display: flex;
+    margin: auto;
+    max-width: 800px;
+    object-fit: cover;
+    object-position: center;
+    max-height: 400px;
+    
+}
